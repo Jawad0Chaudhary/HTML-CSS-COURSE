@@ -1,0 +1,47 @@
+div{
+  text-align: center;
+}
+p{
+  font-family: arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.img{
+  width: 200px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.search{
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 30px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+  margin-bottom: 25px;
+}
+
+.button{
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  background-color: rgba(243, 235, 235, 0.63);
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.button:hover{
+  opacity: 0.7;
+}
+
+.button:active{
+  opacity: 0.4;
+}

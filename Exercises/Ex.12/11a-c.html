@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> FLexbox</title>
+    <style>
+      .flexbox-1{
+        display: flex;
+      }
+
+      .flexbox-2{
+        margin-top: 25px;
+        display: flex;
+      }
+
+      .flexbox-3{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+      }
+
+      .flexbox-4{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        border: 1px;
+        border-style: solid;
+        border-color: gray;
+        align-items: center;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <DIV class="flexbox-1">
+      <div style="background-color: lightblue; width: 200px;">200px</div>
+      <div style="background-color: lightpink; width: 75px;">75px</div>
+    </DIV>
+
+    <DIV class="flexbox-2">
+      <div style="background-color: lightblue; width: 50px;">col1</div>
+      <div style="background-color: lightpink; flex: 1;">col2</div>
+      <div style="background-color: lightblue; width: 275px;">col2</div>
+    </DIV>
+
+    <DIV class="flexbox-3">
+      <div style="background-color: lightpink;">item 1</div>
+      <div style="background-color: lightpink;">item 2</div>
+      <div style="background-color: lightpink;">item 3</div>
+      <div style="background-color: lightpink;">item 4</div>
+    </DIV>
+
+    <DIV class="flexbox-4">
+      <div style="background-color: lightblue;">item 1</div>
+      <div style="background-color: lightpink;">item 2</div>
+    </DIV>
+  </body>
+</html>

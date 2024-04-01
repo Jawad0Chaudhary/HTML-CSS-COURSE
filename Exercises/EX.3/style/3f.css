@@ -1,0 +1,57 @@
+.txt{
+  color: rgb(0, 113, 133);
+  font-size: 18px;
+  transition: color 0.20s;
+  cursor: pointer;
+}
+
+.txt:hover{
+  color: rgb(160, 11, 11);
+}
+
+.price{
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+  font-size: large;
+}
+
+.cart{
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 35px;
+  width: 125px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 28px;
+  cursor: pointer;
+  margin-right: 8;
+  transition:background-color 0.20s, opacity 0.20s;
+}
+
+.cart:hover{
+  background-color: rgb(212, 181, 26);
+}
+
+.cart:active{
+  opacity: 0.5;
+}
+
+.buy{
+  background-color: rgb(255, 164, 28);
+  border: none;
+  height: 35px;
+  width: 125px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 28px;
+  cursor: pointer;
+  margin-right: 8;
+  transition: background-color 0.20s, opacity 0.20s;
+}
+
+.buy:hover{
+  background-color: rgb(224, 124, 10);
+}
+.buy:active{
+  opacity: 0.5;
+}

@@ -1,0 +1,127 @@
+p{
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.new {
+  text-align: center;
+  color: rgb(245, 99, 0);
+  margin-bottom: 10px;
+}
+
+.product {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.title {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.price {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.buy {
+  text-align: center;
+  background-color: rgb(0, 113, 227);
+  border: none;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 650px;
+  transition: opacity 0.15s, color 0.25s, background-color 0.25s, border 0.25s, border-width 0.25s, border-color 0.25s;
+}
+
+.buy:hover{
+  opacity: 0.7;
+}
+
+.buy:active{
+  color: rgb(0, 113, 227);
+  background-color: white;
+  border:solid;
+  border-width: 1px;
+  border-color: rgb(0, 113, 227);
+}
+
+
+.num{
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+
+.usd{
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+    margin-left: 3px;
+    margin-bottom: 4px;
+}
+
+.green{
+  color: rgb(7, 102, 7);
+  margin-bottom: 9px;
+  font-size: 13.5px;
+
+}
+
+.gray{
+  color: rgb(39, 38, 38);
+  font-size: 13.5px;
+  margin-bottom: 50px;
+}
+
+.red{
+  color: rgb(184, 6, 6);
+  font-size: 13.5px;
+
+}
+
+.free01{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.free{
+  color: rgb(141, 139, 139);
+  cursor: pointer;
+}
+
+.free:hover{
+  text-decoration: underline;
+}
+
+.txt{
+  font-weight: 500;
+  width: 500;
+  line-height: 20px;
+  margin-top: 5px;
+}
+
+.skill{
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.chp{
+  color: rgb(0, 153, 255);
+  cursor: pointer;
+}
+
+.chp:hover{
+  text-decoration: underline;
+}

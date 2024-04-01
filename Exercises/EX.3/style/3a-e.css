@@ -1,0 +1,132 @@
+.request-button{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  height: 44px;
+  width: 118px;
+  cursor: pointer;
+  margin-right: 10;
+  margin-bottom: 10;
+  transition: opacity 0.20s;
+}
+
+.request-button:hover{
+  opacity: 0.8;
+}
+
+.amazon-button{
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 38px;
+  width: 210px;
+  border-radius: 25px;
+  font-size: 16;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10;
+  margin-bottom: 10;
+  transition: background-color 0.20s;
+}
+
+.amazon-button:hover{
+  background-color: rgb(238, 201, 16);
+}
+
+.github-button{
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 95px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14.5;
+  cursor: pointer;
+  margin-bottom: 10;
+  transition: box-shadow 0.20s;
+}
+
+.github-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.30);
+}
+
+.bootstrap-button1{
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  height: 42px;
+  width: 120px;
+  font-weight: bold;
+  font-size: 14;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8;
+  margin-bottom: 10;
+  transition: background-color 0.20s;
+}
+
+.bootstrap-button1:hover{
+  background-color: rgb(89, 55, 139);
+}
+
+.bootstrap-button{
+  background-color: white;
+  border-color: rgb(108, 117, 125);
+  color: rgb(108, 117, 125);
+  border-style: solid;
+  border-width: 1.8px;
+  border-radius: 4px;
+  height: 42px;
+  width: 120px;
+  font-weight: bold;
+  font-size: 16;
+  cursor: pointer;
+  margin-right: 8;
+  margin-bottom: 10;
+  transition: background-color 0.20s, color 0.20s;
+}
+
+.bootstrap-button:hover{
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.linkedin-button1{
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  height: 42px;
+  width: 238px;
+  font-weight: bold;
+  font-size: 14.8px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: 8;
+  margin-bottom: 10;
+  transition: background-color 0.20s;
+}
+
+.linkedin-button1:hover{
+  background-color: rgb(0, 56, 112);
+}
+
+.linkedin-button{
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-color: rgb(10, 102, 194);
+  border: solid;
+  border-width: 2px;
+  height: 42px;
+  width: 87px;
+  font-weight: bolder;
+  font-size: 17.6px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 10;
+  transition: background-color 0.20s;
+}
+
+.linkedin-button:hover{
+  background-color: rgba(10, 102, 194, 0.171);
+
+}

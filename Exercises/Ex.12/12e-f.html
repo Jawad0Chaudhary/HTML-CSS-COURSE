@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FLexbox</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<style>
+  p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  div{
+    font-family: Roboto, Arial;
+  }
+.container{
+  border-style: solid;
+  border-width: 1px;
+  width: 300px;
+  border-color: rgb(200, 200, 200);
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.notification{
+  background-color: rgb(40, 109, 245);
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 14px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.25s, opacity 0.25s;
+}
+
+.notification:hover{
+  background-color: rgb(32, 88, 201);
+}
+
+.notification:active{
+  opacity: 0.4;
+}
+
+
+.image{
+  width: 40px;
+  border-radius: 200px;
+  align-items: center;
+  object-fit: cover;
+}
+
+.description{
+  font-family: arial;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.name{
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.profession, .popular{
+  font-size: 13px;
+  color: rgb(112, 108, 108);
+  margin-bottom: 4px;
+}
+.flexbox-1{
+  display: flex;
+}
+
+.flexbox0{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.follow-button{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.25s, opacity 0.25s;
+}
+
+.follow-button:hover{
+  background-color: rgb(19, 123, 192);
+}
+
+.follow-button:active{
+  opacity: 0.5;
+}
+.flexbox00{
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  border-radius: 5px;
+  margin-bottom: 50px;
+  width: 450px;
+}
+
+
+
+
+.home1{
+  color: white;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.searchbox{
+  font-family: Arial;
+  border: none;
+  width: 370px;
+  border-radius: 200px;
+  padding-left: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 12px;
+}
+.download-button{
+  background-color: rgb(120, 82, 178);
+  color: white;
+  border-color: white;
+  border-radius: 2px;
+  border-width: 0.5px;
+  font-family: Arial;
+  font-size: 12px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+
+.FLEXBOX{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(120, 82, 178);
+  width: 630px;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+</style>
+  </head>
+  <body>
+<DIV class="container">
+  <div class="flexbox">
+    <div>Home</div>
+    <div class="notification">14</div>
+  </div>
+  <div class="flexbox">
+    <div>Notification</div>
+    <div class="notification">3</div>
+  </div>
+  <div class="flexbox">
+    <div>Messages</div>
+    <div class="notification">5</div>
+  </div>
+</DIV>
+
+<DIV class="flexbox00">
+  <Div class="flexbox0">
+    <div class="flexbox-1">
+      <div class="profile-image">
+        <img class="image" src="profile-pic/1.jpg">
+      </div>
+      <div class="description">
+        <p class="name">Waqar Zaka</p>
+        <p class="profession">Trader</p>
+        <p class="popular">Popular</p>
+      </div>
+    </div>
+    <div class="flexbox-2">
+      <div class="follow-button">Follow</div>
+    </div>
+  </Div>
+
+  <Div class="flexbox0">
+    <div class="flexbox-1">
+      <div class="profile-image">
+        <img class="image" src="profile-pic/2.jpg">
+      </div>
+      <div class="description">
+        <p class="name">Narendar Modhi</p>
+        <p class="profession">Prime Minister Of India</p>
+        <p class="popular">Popular</p>
+      </div>
+    </div>
+    <div class="flexbox-2">
+      <div class="follow-button">Follow</div>
+    </div>
+  </Div>
+
+  <Div class="flexbox0">
+    <div class="flexbox-1">
+      <div class="profile-image">
+        <img class="image" src="profile-pic/3.jpg">
+      </div>
+      <div class="description">
+        <p class="name">Chupaa Imran</p>
+        <p class="profession">Ex-Prime Minister (CHOR)</p>
+        <p class="popular">UnPopular</p>
+      </div>
+    </div>
+    <div class="flexbox-2">
+      <div class="follow-button">Follow</div>
+    </div>
+  </Div>
+</DIV>
+
+<DIV class="FLEXBOX">
+  <div class="left">
+    <div class="home1">Home</div>
+  </div>
+  <div class="middle">
+    <input class="searchbox" type="text" placeholder="Search">
+  </div>
+  <div class="right">
+    <button class="download-button">Download</button>
+  </div>
+</DIV>
+  </body>
+</html>

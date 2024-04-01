@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<style>
+  div{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Roboto, arial;
+  }
+  body{
+    height: 3000px;
+  }
+  .sidebar-1{
+    background-color: rgb(32, 32, 32);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+  }
+  .images{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+  .profile-pic1{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 5px;
+  }
+  .profile-pic2{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 5px;
+  }
+  .profile-pic3{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  .sidebar-2{
+    position: fixed;
+    left: 70px;
+    top: 0px;
+    bottom: 0px;
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 200px;
+    background-color: rgb(51, 50, 50);
+  }
+  .first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    margin-bottom: 20px;
+  }
+  .info{
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    transition: text-decoration 0.15s;
+  }
+  .info:hover{
+    text-decoration: underline;
+  }
+  .plus{
+    color: gray;
+    font-weight: bold;
+    font-size: 23px;
+    cursor: pointer;
+    transition: font-size 0.15s;
+  }
+  .plus:hover{
+    font-size: 25px;
+  }
+  .secound,.third,.fourth{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 13px;
+    cursor: pointer;
+  }
+</style>
+  </head>
+  <body>
+    <div class="sidebar-1">
+      <div class="images">
+        <img class="profile-pic1" src="profile-pic/cat (1).jpg">
+        <img class="profile-pic2" src="profile-pic/cat2.jpg">
+        <img class="profile-pic3" src="profile-pic/dog.jpg">
+      </div>
+    </div>
+    <div class="sidebar-2">
+      <div class="first">
+        <div class="info">INFO</div>
+        <div class="plus">+</div>
+      </div>
+      <div class="secound"># new-videos</div>
+      <div class="third"># updates</div>
+      <div class="fourth"># faq</div>
+    </div>
+  </body>
+</html>
